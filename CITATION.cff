@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the paper it accompanies
+  (preferred-citation below).
+title: >-
+  Single-cell analysis code for Erdem et al. 2026 (Diabetologia)
+abstract: >-
+  Reproduces the single-cell RNA-seq figures (Fig. 1j, Fig. 1k and ESM Fig. 2a)
+  from Erdem et al., Human pancreatic ductal cells from non-diabetic donors
+  function as non-professional antigen-presenting cells upon inflammatory
+  cytokine exposure, Diabetologia 2026. Covers only the computational analysis
+  of publicly available PanKBase data.
+type: software
+license: MIT
+repository-code: >-
+  https://github.com/KaddisLab/2026_erdem_et_al_diabetologia
+keywords:
+  - single-cell RNA-seq
+  - type 1 diabetes
+  - pancreatic ductal cells
+  - antigen presentation
+  - reproducible research
+authors:
+  - family-names: O'Meally
+    given-names: Denis
+    orcid: https://orcid.org/0000-0001-7749-9506
+  - family-names: Kaddis
+    given-names: John S.
+  - family-names: Ku
+    given-names: Hsun Teresa
+preferred-citation:
+  type: article
+  title: >-
+    Human pancreatic ductal cells from non-diabetic donors function as
+    non-professional antigen-presenting cells upon inflammatory cytokine
+    exposure
+  journal: Diabetologia
+  year: 2026
+  volume: 69
+  issue: 8
+  start: 2323
+  end: 2337
+  doi: 10.1007/s00125-026-06746-x
+  authors:
+    - family-names: Erdem
+      given-names: Neslihan
+    - family-names: Arribas-Layton
+      given-names: David
+    - family-names: Zook
+      given-names: Heather N.
+    - family-names: O'Meally
+      given-names: Denis
+      orcid: https://orcid.org/0000-0001-7749-9506
+    - family-names: Mares
+      given-names: Jacob
+    - family-names: Quijano
+      given-names: Janine C.
+    - family-names: Donohue
+      given-names: Cecile
+    - family-names: Ortiz
+      given-names: Jose A.
+    - family-names: Jou
+      given-names: Kevin
+    - family-names: Vasavada
+      given-names: Rupangi C.
+    - family-names: Montero
+      given-names: Enrique
+    - family-names: Kaddis
+      given-names: John S.
+    - family-names: Reijonen
+      given-names: Helena
+    - family-names: Ku
+      given-names: Hsun Teresa
