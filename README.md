@@ -1,5 +1,7 @@
 # Ductal cell APC function — single-cell analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21617506.svg)](https://doi.org/10.5281/zenodo.21617506)
+
 Code to reproduce the single-cell RNA-seq figures in:
 
 > Erdem N, Arribas-Layton D, Zook HN, O'Meally D, Mares J, Quijano JC, Donohue C,
@@ -122,8 +124,11 @@ figures/               output
 
 ## Citation
 
-If you use this code, please cite the paper above. The bulk mRNA-seq data from
-the same study are in GEO under
+If you use this code, please cite the paper above. To cite the code itself, use
+the archived version: [doi:10.5281/zenodo.21617506](https://doi.org/10.5281/zenodo.21617506)
+(resolves to the latest release).
+
+The bulk mRNA-seq data from the same study are in GEO under
 [GSE309294](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE309294).
 
 ## License

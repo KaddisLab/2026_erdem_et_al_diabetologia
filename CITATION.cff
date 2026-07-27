@@ -14,6 +14,15 @@ type: software
 license: MIT
 repository-code: >-
   https://github.com/KaddisLab/2026_erdem_et_al_diabetologia
+version: v1.0.0
+doi: 10.5281/zenodo.21617506
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21617506
+    description: Concept DOI, resolves to the latest release
+  - type: doi
+    value: 10.5281/zenodo.21617507
+    description: DOI for release v1.0.0
 keywords:
   - single-cell RNA-seq
   - type 1 diabetes
