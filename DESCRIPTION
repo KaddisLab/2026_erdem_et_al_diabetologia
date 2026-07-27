@@ -1,0 +1,37 @@
+Package: erdem2026ductalapc
+Title: Single-Cell Analysis for Erdem et al. 2026 (Diabetologia)
+Version: 1.0.0
+Authors@R: c(
+    person("Denis", "O'Meally", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7749-9506")),
+    person("John S.", "Kaddis", role = "aut"),
+    person("Hsun Teresa", "Ku", role = "aut")
+  )
+Description: Reproduces the single-cell RNA-seq figures (Fig. 1j, Fig. 1k and
+    ESM Fig. 2a) from Erdem et al., Human pancreatic ductal cells from
+    non-diabetic donors function as non-professional antigen-presenting cells
+    upon inflammatory cytokine exposure, Diabetologia 2026;69(8):2323-2337,
+    doi:10.1007/s00125-026-06746-x. Not an installable package; the
+    dependencies below are what the pipeline needs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.3.0)
+Imports:
+    targets (>= 1.5.0),
+    Seurat (>= 5.0.0),
+    UCell (>= 2.4.0),
+    BiocParallel,
+    dplyr (>= 1.1.0),
+    tibble,
+    ggplot2 (>= 3.4.0),
+    svglite (>= 2.1.0),
+    systemfonts (>= 1.0.0),
+    lme4 (>= 1.1-35),
+    lmerTest,
+    glmmTMB (>= 1.1-8),
+    broom.mixed
+SystemRequirements: Arial, or a metric-compatible substitute such as
+    Liberation Sans (Debian/Ubuntu: fonts-liberation; RHEL/Fedora:
+    liberation-sans-fonts). Without one, figure text falls back to the
+    system default and glyph spacing may differ from the published figures.

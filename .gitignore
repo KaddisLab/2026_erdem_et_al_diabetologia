@@ -1,0 +1,14 @@
+# targets cache
+_targets/
+
+# input data (~9 GB; see data/README.md)
+data/*.rds
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
